@@ -12,3 +12,6 @@ dist
 
 # macOS
 .DS_Store
+
+# Force yarn
+package-lock.json
