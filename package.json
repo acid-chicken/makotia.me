@@ -4,6 +4,11 @@
   "description": "ポートフォリオ",
   "author": "Makoto Ito <3mdevmail@gmail.com>",
   "private": true,
+  "config": {
+      "nuxt": {
+          "host": "0.0.0.0"
+        }
+    },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
