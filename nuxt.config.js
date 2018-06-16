@@ -12,6 +12,8 @@ module.exports = {
       { name: "twitter:site", content: "@hs6a" },
       { name: "twitter:creator", content: "@hs6a" },
       { name: "twitter:image", content: "https://makotia.me/makotia_icon.png" },
+      { name: "og:title", content: "Official makotia portfolio" },
+      { name: "og:description", content: "makotia portfolio" },
       { name: "og:image", content: "https://makotia.me/makotia_icon.png" },
       { name: "og:url", content: "https://makotia.me" },
       { name: "og:type", content: "website" },
