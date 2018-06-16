@@ -24,6 +24,12 @@ module.exports = {
       { href: 'https://fonts.googleapis.com/css?family=Roboto', rel:'stylesheet' }
     ]
   },
+  // Google アナリティクス
+  modules: [
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-108261973-3'
+    }]
+  ],
   /*
   ** Customize the progress bar color
   */
