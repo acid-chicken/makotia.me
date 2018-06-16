@@ -4,7 +4,11 @@
   </div>
 </template>
 
-<style>
+
+  border: 1px solid #00aba9
+  color: #00aba9
+  &:hover
+    background-color: #00aba9<style>
 /*
 html5doctor.com Reset Stylesheet
 v1.6.1
@@ -110,6 +114,84 @@ input, select {
 
 /* end reset css */
 body {
-  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-family: 'Roboto', "Rounded Mplus 1c", sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin: 5px;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.title {
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  display: block;
+  font-weight: 300;
+  font-size: 100px;
+  color: #35495e;
+  letter-spacing: 1px;
+}
+
+.wrapper {
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.container-left {
+  float: left;
+  min-height: 100vh;
+  min-width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-right {
+  float: right;
+  min-height: 100vh;
+  min-width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  word-break: normal;
+  margin: 10px;
+  line-height: 1.5em;
+  font-size: 120%;
+}
+
+a {
+  color: #d80073;
+}
+
+/* 幅が細い端末用 */
+@media screen and (max-width: 911px) {
+  .title {
+    font-size: 50px;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-left {
+    min-height: 50vh;
+    min-width: 100vw;
+  }
+  .container-right {
+    min-height: 50vh;
+    min-width: 100vw;
+  }
 }
 </style>
