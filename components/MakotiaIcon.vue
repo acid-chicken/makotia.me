@@ -1,6 +1,6 @@
 <template>
   <div class="MakotiaIcon">
-    <img class="icon" src="~/assets/makotia_icon.png">
+    <img class="icon" src="/makotia_icon.png">
   </div>
 </template>
 

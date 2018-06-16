@@ -7,7 +7,14 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'ポートフォリオ' }
+      { hid: 'description', name: 'description', content: 'makotia portfolio' },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:site", content: "@hs6a" },
+      { name: "twitter:creator", content: "@hs6a" },
+      { name: "twitter:image", content: "https://makotia.me/makotia_icon.png" },
+      { name: "og:image", content: "https://makotia.me/makotia_icon.png" },
+      { name: "og:url", content: "https://makotia.me" },
+      { name: "og:type", content: "website" },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

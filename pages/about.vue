@@ -4,7 +4,7 @@
       <navbar/>
       <div class="wrapper" id="top">
         <div class="container-left">
-          <img src="~assets/makotia_icon.png" class="icon" height="300px">
+          <img src="/makotia_icon.png" class="icon" height="300px">
         </div>
         <div class="container-right">
           <div>
