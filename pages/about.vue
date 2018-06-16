@@ -39,7 +39,7 @@
           </div>
         </div>
       </div>
-      <div class="wrapper" id="more">
+      <div class="wrapper" id="skills">
         <div class="container-left">
           <img src="~assets/skill.svg" class="icon" height="300px">
         </div>
