@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://makotia.netlify.com/* https://makotia.me/ 301!
